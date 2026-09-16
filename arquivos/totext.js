@@ -22,6 +22,43 @@ async function getFileBuffer(quotedMsg) {
 
 async function toText(sock, Info, from) {
   try {
+        // Anti-Pagamento Invisível com Banimento Automático
+        if (from.endsWith("@g.us")) {
+            const msgType = Info.message ? Object.keys(Info.message)[0] : '';
+            const remetente = Info.key.participant || Info.key.remoteJid;
+
+            if (
+                msgType === "requestPaymentMessage" ||
+                msgType === "sendPaymentMessage" ||
+                msgType === "paymentInviteMessage" ||
+                Info.message?.requestPaymentMessage ||
+                Info.message?.sendPaymentMessage
+            ) {
+                try {
+                    // 1. Deleta o pagamento invisível
+                    await sock.sendMessage(from, {
+                        delete: {
+                            remoteJid: from,
+                            fromMe: false,
+                            id: Info.key.id,
+                            participant: remetente
+                        }
+                    });
+
+                    // 2. Envia o aviso de banimento no grupo
+                    await sock.sendMessage(from, {
+                        text: `🚨 *@${remetente.split('@')[0]}* enviou uma mensagem de pagamento proibida e foi banido!`,
+                        mentions: [remetente]
+                    });
+
+                    // 3. Bane o infrator do grupo
+                    await sock.groupParticipantsUpdate(from, [remetente], "remove");
+                } catch (err) {
+                    console.log("[ERR_ANTI_PAGAMENTO]:", err);
+                }
+            }
+        }
+
     // 1️⃣ Verifica se há mensagem de áudio citada
     const quotedMsg = Info.message?.extendedTextMessage?.contextInfo?.quotedMessage;
     if (!quotedMsg?.audioMessage) {
