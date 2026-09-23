@@ -1,0 +1,145 @@
+[
+  {
+    "id": "ACB1AADAB31E08751B2DE8002EAE8B82",
+    "from": "120363403068612684@g.us",
+    "participant": "95301700460567@lid",
+    "timestamp": 1790047884791,
+    "type": "text",
+    "content": "Prefixo",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "3EB0C2B40E325949C0AEC3",
+    "from": "120363403068612684@g.us",
+    "participant": "184125482872964@lid",
+    "timestamp": 1790047895627,
+    "type": "text",
+    "content": "O prefixo de comandos é: .",
+    "quoted": true,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "AC6AD62042FC5B0B7876CA90BE8AFBC2-1",
+    "from": "120363403068612684@g.us",
+    "participant": "22381762445510@lid",
+    "timestamp": 1790047938562,
+    "type": "unknown",
+    "content": "[Mensagem não suportada]",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "AC37156E266E1945BF9EF3C3D2EFE924",
+    "from": "120363403068612684@g.us",
+    "participant": "95301700460567@lid",
+    "timestamp": 1790047938575,
+    "type": "text",
+    "content": "Kenzomenu",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "ACF564DC32062A5568149783F4E1C9FF",
+    "from": "120363403068612684@g.us",
+    "participant": "95301700460567@lid",
+    "timestamp": 1790049535556,
+    "type": "text",
+    "content": "Prefixo",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "AC64D703278322D0AD1272A041B5852E",
+    "from": "120363403068612684@g.us",
+    "participant": "95301700460567@lid",
+    "timestamp": 1790049541404,
+    "type": "text",
+    "content": "Prefixo",
+    "quoted": true,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "3EB0266CF817F21161AA0C",
+    "from": "120363403068612684@g.us",
+    "participant": "184125482872964@lid",
+    "timestamp": 1790049543281,
+    "type": "text",
+    "content": "O prefixo de comandos é: .",
+    "quoted": true,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "AC5060A53149CEA15B19984079575D7C",
+    "from": "120363403068612684@g.us",
+    "participant": "95301700460567@lid",
+    "timestamp": 1790049543779,
+    "type": "text",
+    "content": "Kenzomenu",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "ACB87C828501691E66050ED10AAD6576",
+    "from": "120363403068612684@g.us",
+    "participant": "198973654589624@lid",
+    "timestamp": 1790050066716,
+    "type": "text",
+    "content": "Angolano e foda",
+    "quoted": true,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "AC7B536333791DF968786DEC772DEE14",
+    "from": "120363403068612684@g.us",
+    "participant": "198973654589624@lid",
+    "timestamp": 1790050068026,
+    "type": "text",
+    "content": "Tnc",
+    "quoted": true,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "ACA949DE04342515AE4394422269A7B1",
+    "from": "120363403068612684@g.us",
+    "participant": "38135065014376@lid",
+    "timestamp": 1790050646394,
+    "type": "text",
+    "content": "Tadinho do mlk, não consegue nem pegar a mãe e irmã taradonas q curtem incesto",
+    "quoted": true,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "ACF294B5144852A9C3296CCA841E4B9C",
+    "from": "120363403068612684@g.us",
+    "participant": "38135065014376@lid",
+    "timestamp": 1790050725213,
+    "type": "sticker",
+    "content": "[Figurinha]",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "AC432E4CE4097AC422E914A1420CD0ED",
+    "from": "120363403068612684@g.us",
+    "participant": "38135065014376@lid",
+    "timestamp": 1790051022082,
+    "type": "image",
+    "content": "[Imagem]",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  }
+]
