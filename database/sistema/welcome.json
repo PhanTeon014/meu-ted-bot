@@ -133,5 +133,10 @@
     "enabled": true,
     "caption": "Olá @user, seja bem-vindo(a) ao grupo *#group*! 🎉\n\n• Respeite as regras\n• Evite enviar links\n• Divirta-se!",
     "leaveCaption": "👋 @user saiu do grupo *#group*."
+  },
+  "120363428167467522@g.us": {
+    "enabled": true,
+    "caption": "Continências, @user! \n\nÉ imperativo que vós nos sigais: https://whatsapp.com/channel/0029VbDMZVP7YSdCRq1PMc0u",
+    "leaveCaption": "👋 @user saiu do grupo *#group*."
   }
 }
