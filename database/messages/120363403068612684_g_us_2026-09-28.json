@@ -1,0 +1,35 @@
+[
+  {
+    "id": "A5DC08F44E1DA2DF90DDB52102C72077",
+    "from": "120363403068612684@g.us",
+    "participant": "264768308957320@lid",
+    "timestamp": 1790607891478,
+    "type": "text",
+    "content": "Prefixo",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "3EB06F43EEF75072D68A78",
+    "from": "120363403068612684@g.us",
+    "participant": "184125482872964@lid",
+    "timestamp": 1790607899502,
+    "type": "text",
+    "content": "O prefixo de comandos é: .",
+    "quoted": true,
+    "mentions": [],
+    "isFromMe": false
+  },
+  {
+    "id": "A5910C10CE69A105E758F516DBD5C596",
+    "from": "120363403068612684@g.us",
+    "participant": "264768308957320@lid",
+    "timestamp": 1790607906781,
+    "type": "text",
+    "content": "Kenzomenu",
+    "quoted": false,
+    "mentions": [],
+    "isFromMe": false
+  }
+]
