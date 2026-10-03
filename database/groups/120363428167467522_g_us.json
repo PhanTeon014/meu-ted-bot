@@ -6984,11 +6984,11 @@
     "restrict": true,
     "ephemeralDuration": 86400
   },
-  "lastUpdate": 1791033051698,
+  "lastUpdate": 1791033874404,
   "eventType": "message_activity",
   "stats": {
     "totalMessages": 1502,
-    "lastActivity": 1791033051698,
+    "lastActivity": 1791033874404,
     "activeMembers": 0
   }
 }
